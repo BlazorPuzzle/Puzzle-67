@@ -1,0 +1,33 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Blazor Puzzle #67</h1>
+
+<p>
+    This is a .NET 9 Blazor Web App with Global Server Interactivity.
+</p>
+
+<p>
+    Below is a simple HTML date input field bound to a local DateTime variable.
+</p>
+
+<p>
+    Click on the month and start typing the date "02/21/2025".
+</p>
+
+<p>
+    Notice that as soon as type the first zero, the entire date defaults to 01/01/0001, 
+    which renders the dropdown calendar completely useless.
+</p>
+
+<p>
+    How can this be fixed?
+</p>
+
+<InputDate @bind-Value="@MyDate" />
+
+@code 
+{
+    DateTime MyDate = DateTime.Now;
+}
