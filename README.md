@@ -14,7 +14,7 @@ Below is a simple HTML date input field bound to a local DateTime variable.
 
 Click on the month and start typing the date "02/21/2025".
 
-Notice that as soon as type the first zero, the entire date defaults to 01/01/0001, which renders the dropdown calendar completely useless.
+Notice that as soon as you type the first zero, the entire date defaults to 01/01/0001 which renders the dropdown calendar completely useless.
 
 ![image-20250217110044093](images/image-20250217110044093.png)
 
